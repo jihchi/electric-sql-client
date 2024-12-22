@@ -6,3 +6,15 @@ description = "An Electric client implemetation"
 license-file = "LICENSE"
 
 [dependencies]
+async-stream = "0.3.6"
+futures = "0.3.31"
+reqwest = { version = "0.12.9", features = ["json"] }
+tokio = { version = "1.42.0", features = ["full"] }
+
+[lib]
+name = "electric_sql_client"
+path = "src/lib.rs"
+
+[[example]]
+name = "simple"
+path = "examples/simple.rs"
