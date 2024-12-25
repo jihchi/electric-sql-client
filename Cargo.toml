@@ -1,8 +1,12 @@
 [package]
 name = "electric-sql-client"
 version = "0.2.0"
+authors = ["Jihchi Lee <achi@987.tw>"]
 edition = "2021"
 description = "An Electric client implemetation"
+documentation = "https://docs.rs/electric-sql-client"
+homepage = "https://github.com/jihchi/electric-sql-client"
+repository = "https://github.com/jihchi/electric-sql-client"
 license = "MIT"
 
 [dependencies]
