@@ -10,7 +10,7 @@ repository = "https://github.com/jihchi/electric-sql-client"
 license = "MIT"
 
 [dependencies]
-reqwest = { version = "0.12.9", features = ["json"] }
+reqwest = { version = "0.12.9" }
 
 [dev-dependencies]
 tokio = { version = "1.42.0", features = ["full"] }
