@@ -1,6 +1,6 @@
 [package]
 name = "electric-sql-client"
-version = "0.2.2"
+version = "0.2.3"
 authors = ["Jihchi Lee <achi@987.tw>"]
 edition = "2021"
 description = "An Electric client implemetation"
