@@ -7,7 +7,7 @@ description = "An Electric client implemetation"
 documentation = "https://docs.rs/electric-sql-client"
 homepage = "https://github.com/jihchi/electric-sql-client"
 repository = "https://github.com/jihchi/electric-sql-client"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 reqwest = { version = "0.12.9" }
